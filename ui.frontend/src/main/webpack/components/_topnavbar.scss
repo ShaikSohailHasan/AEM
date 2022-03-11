@@ -1,0 +1,30 @@
+.top-nav {
+    margin: 0;
+    width: 100%;
+    background: transparent;
+    border: 0.5px rgba(255, 255, 255, 0.6);
+    border-style: solid none;
+    height: 42px;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: calc(10px + 2*(100vw - 1024px)/896);
+    line-height: 1;
+}
+
+.top-nav > li {
+    margin: 0 32px;
+    align-items: center;
+}
+
+.navItem-icon {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+}
+
+.top-nav > li > svg{
+    height: 20px;
+    width: 20px;
+}

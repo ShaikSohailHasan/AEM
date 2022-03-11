@@ -1,0 +1,30 @@
+<!--/* /apps/mysite/components/navbar/cq:dialog/content/items/tabs/items/properties/items/links/field/items/well/items/text */-->
+
+<nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggler" data-toggle="open-navbar1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a href="#">
+            <!-- <h4>Awesome<span>logo</span></h4> -->
+            <img src="https://strapiblob.blob.core.windows.net/sta/assets/logo_ec4c54676e.svg" />
+          </a>
+        </div>
+
+        <div class="navbar-menu" id="open-navbar1">
+        <ul class="navbar-nav" data-sly-list.item="${properties.items.links}">
+          <li><a href="${item}">${item}</a></li>
+          <li><a href="#">Looool</a></li>
+        </ul>
+        <ul class="navbar-nav">
+          <li><a href="#">See & Do</a></li>
+          <li><a href="#">Plan Your Visit</a></li>
+          <li><a href="#">Travel Essentials</a></li>
+          <li><a href="#">Saudi Calendar</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-03-10T12:02:13.111+04:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/mysite/settings/wcm/templates/testtemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="frontPage"
+        sling:resourceType="mysite/components/remotepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header
+                    jcr:created="{Date}2022-03-09T16:45:03.807+04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-09T16:45:03.807+04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/header">
+                    <headertitle
+                        jcr:lastModified="{Date}2022-03-10T11:39:32.809+04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/headertitle"
+                        text="All events happening in one place"
+                        title="IT'S ALL HAPPENINGGGG"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                    <navbar
+                        jcr:lastModified="{Date}2022-03-10T12:02:13.106+04:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="mysite/components/navbar"
+                        text="[test]">
+                        <links jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                link="testtttt"
+                                text="test"/>
+                        </links>
+                    </navbar>
+                </header>
+                <image
+                    jcr:created="{Date}2022-03-10T11:37:29.747+04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-10T11:52:16.714+04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/image"
+                    alt="creepy clown"
+                    displayPopupTitle="true"
+                    fileName="Homepage_Banner_Image_RedNEW.jpg"
+                    isDecorative="false">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="6"/>
+                    </cq:responsive>
+                    <file/>
+                </image>
+                <title
+                    jcr:created="{Date}2022-03-10T11:44:07.986+04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-10T11:44:35.055+04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="A uniquely Saudi experience awaits in winter"
+                    sling:resourceType="mysite/components/title">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </title>
+                <text
+                    jcr:created="{Date}2022-03-10T11:44:58.493+04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-10T11:45:21.646+04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/text"
+                    text="&lt;p>Discover an exciting range of activities and Saudi destinations that are perfect for the cooler months of the year. Experience the thrill of Riyadh Seasons, the world's largest lifestyle festival, with a huge variety of entertainment and events for the whole family.&lt;br>&#xa;Enjoy the temperate climate of the Red Sea for winter sun, sand and marine adventure.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="4"
+                            width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text>
+                <text_1384539084
+                    jcr:created="{Date}2022-03-10T11:45:09.168+04:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2022-03-10T11:45:33.883+04:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="mysite/components/text"
+                    text="&lt;p>Explore Saudi's national parks and ward off the evening chill with a roaring campfire beneath the glorious desert stars. Or head for the colder climes of Saudi's mountainous north for a chance to see the desert carpeted in fresh snow. However you like to spend your winter, Saudi has an exciting experience waiting for you.&lt;/p>&#xa;"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                        <tablet
+                            jcr:primaryType="nt:unstructured"
+                            offset="4"
+                            width="8"/>
+                        <phone
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="12"/>
+                    </cq:responsive>
+                </text_1384539084>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

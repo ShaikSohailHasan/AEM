@@ -1,0 +1,21 @@
+.bg-img {
+    z-index: -1;
+    position: absolute;
+  }
+  
+  .main-nav {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+  }
+  
+  [data-component=picture] .image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .bg-img > img{
+    max-width: 100%;
+  }

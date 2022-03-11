@@ -1,0 +1,22 @@
+.content-wrapper {
+  z-index: 0;
+  position: absolute;
+  top: 30%;
+  left: 2%;
+  color: #fff;
+}
+
+.content-wrapper > h1 {
+  font-family: "Displace Regular";
+}
+
+.content-wrapper > p {
+  font-family: "Gilroy-SemiBold";
+}
+
+.content-wrapper > button {
+  font-family: "Gilroy-SemiBold";
+  border-radius: 3.2rem;
+  padding: 1rem 2.4rem;
+  border: none;
+}
